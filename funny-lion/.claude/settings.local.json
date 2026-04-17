@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --yes)",
+      "Bash(npm run:*)",
+      "Bash(npx next:*)",
+      "Bash(echo \"dev server PID: $!\")",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(taskkill /PID 33896 /F)",
+      "Bash(cmd /c \"taskkill /PID 33896 /F\")",
+      "Bash(cmd /c \"taskkill /PID 33896 /F 2>&1\")",
+      "Bash(netstat -ano)",
+      "Bash(cmd /c \"netstat -ano | findstr :3000\")",
+      "Bash(cmd /c \"taskkill /F /PID 33896\")",
+      "Bash(powershell -Command \"Stop-Process -Id 33896 -Force -ErrorAction SilentlyContinue; Write-Host 'Done'\")",
+      "Bash(powershell -Command \"netstat -ano | Select-String ':3000'\")",
+      "Bash(powershell -Command \"Start-Sleep -Seconds 7; Write-Host 'done'\")",
+      "Bash(git add:*)"
+    ]
+  }
+}
